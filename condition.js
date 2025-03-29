@@ -11,7 +11,7 @@ if (prices >= 6000) {
     console.log(prices);
 }
 
-const age = 61 ;
+const age = 60;
 if (age <= 12) {
      console.log('free');
 } else if (age > 60) {
