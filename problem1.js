@@ -26,13 +26,13 @@ const students = [
 ];
 
 const bigStudent = students.filter((student) => student.age >= 21);
-console.log(bigStudent);
+// console.log(bigStudent);
 
 const studentList = students.sort((a, b) => b.grade - a.grade);
-console.log(studentList);
+// console.log(studentList);
 
 const list = students.map((student) => student.name);
-console.log(list);
+// console.log(list);
 
 const average = students.reduce((num, student) => num + student.grade, 0) / students.length;
 // console.log(average);
